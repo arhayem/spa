@@ -31,9 +31,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-env:
-NETSPARKER_USER_ID: 6db6638d567740ea8399ac56021b4d51
-NETSPARKER_API_TOKEN: v70v0wreOBrUmtXJU7PGB1ggcmjXW4ZvbM5dVTgV7m0=
 
   netspaker_scan_job:
     runs-on: ubuntu-20.04
