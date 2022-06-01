@@ -23,8 +23,5 @@ steps:
     scanTypes: '0'
     scanWebSites: '7741c404-ebbc-47f2-8d47-ac8c0343566a'
     scanWebSitesProfile: '6162eee7-d744-42de-cb5d-ae6c04315f4b'
-    buildFail: true
-    severity: 'Critical,High,Medium'
     hasReport: true
     reportType: 'ScanDetail'
-    isConfirmed: true
