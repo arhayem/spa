@@ -20,5 +20,9 @@ steps:
 - task: netsparker-cloud@1
   inputs:
     apiConnection: 'Invicti Enterprise'
-    scanTypes: '1'
-    scanWebSites: '3a1acaec-5ee3-44b9-064c-ac56022c32d3'
+    scanTypes: '0'
+    scanWebSites: '91211662-e802-4c09-5266-af3104c287c9'
+    scanWebSitesProfile: 'ce23b7aa-92f5-4022-4224-af3104c4892f'
+    hasReport: true
+    reportType: 'FullScanDetail'
+    onlyConfirmedIssues: true
